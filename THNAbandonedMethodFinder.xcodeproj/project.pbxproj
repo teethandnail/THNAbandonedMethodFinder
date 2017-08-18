@@ -12,16 +12,22 @@
 		66E21BB01F45609C00522D4D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E21BAF1F45609C00522D4D /* ViewController.m */; };
 		66E21BB21F45609C00522D4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66E21BB11F45609C00522D4D /* Assets.xcassets */; };
 		66E21BB51F45609C00522D4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66E21BB31F45609C00522D4D /* Main.storyboard */; };
-		66E21BC51F456E7500522D4D /* thn-msg-arm.s in Sources */ = {isa = PBXBuildFile; fileRef = 66E21BC21F456E7500522D4D /* thn-msg-arm.s */; };
-		66E21BC61F456E7500522D4D /* thn-msg-arm64.s in Sources */ = {isa = PBXBuildFile; fileRef = 66E21BC31F456E7500522D4D /* thn-msg-arm64.s */; };
-		66E21BCC1F456F2700522D4D /* THNFindAbandonedMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E21BCB1F456F2700522D4D /* THNFindAbandonedMethod.m */; };
-		66E21BD01F45755900522D4D /* TestModel1.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E21BCF1F45755900522D4D /* TestModel1.m */; };
-		66E21BD31F45756700522D4D /* TestModel2.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E21BD21F45756700522D4D /* TestModel2.m */; };
-		66E21BD61F45757100522D4D /* TestModel3.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E21BD51F45757100522D4D /* TestModel3.m */; };
-		66E21BD81F45791000522D4D /* thn-msg-simulator-x86_64.s in Sources */ = {isa = PBXBuildFile; fileRef = 66E21BD71F45791000522D4D /* thn-msg-simulator-x86_64.s */; };
-		66E21BDC1F45794A00522D4D /* thn-msg-x86_64.s in Sources */ = {isa = PBXBuildFile; fileRef = 66E21BDB1F45794A00522D4D /* thn-msg-x86_64.s */; };
-		66E21BDF1F457D6000522D4D /* THNFindLocalClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E21BDE1F457D6000522D4D /* THNFindLocalClass.m */; };
-		66E21BF61F46853900522D4D /* THNClassInheritUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E21BF31F46853900522D4D /* THNClassInheritUtility.m */; };
+		66E21C451F46E08C00522D4D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E21C441F46E08C00522D4D /* main.m */; };
+		66E21C481F46E08C00522D4D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E21C471F46E08C00522D4D /* AppDelegate.m */; };
+		66E21C4B1F46E08C00522D4D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E21C4A1F46E08C00522D4D /* ViewController.m */; };
+		66E21C4E1F46E08C00522D4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66E21C4C1F46E08C00522D4D /* Main.storyboard */; };
+		66E21C501F46E08C00522D4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66E21C4F1F46E08C00522D4D /* Assets.xcassets */; };
+		66E21C531F46E08C00522D4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66E21C511F46E08C00522D4D /* LaunchScreen.storyboard */; };
+		66E21C6E1F46E28600522D4D /* TestModel1.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E21C691F46E28600522D4D /* TestModel1.m */; };
+		66E21C6F1F46E28600522D4D /* TestModel2.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E21C6B1F46E28600522D4D /* TestModel2.m */; };
+		66E21C701F46E28600522D4D /* TestModel3.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E21C6D1F46E28600522D4D /* TestModel3.m */; };
+		66E21C7A1F46F01B00522D4D /* thn-msg-arm.s in Sources */ = {isa = PBXBuildFile; fileRef = 66E21C721F46F01B00522D4D /* thn-msg-arm.s */; };
+		66E21C7B1F46F01B00522D4D /* thn-msg-arm64.s in Sources */ = {isa = PBXBuildFile; fileRef = 66E21C731F46F01B00522D4D /* thn-msg-arm64.s */; };
+		66E21C7C1F46F01B00522D4D /* thn-msg-simulator-x86_64.s in Sources */ = {isa = PBXBuildFile; fileRef = 66E21C741F46F01B00522D4D /* thn-msg-simulator-x86_64.s */; };
+		66E21C7D1F46F01B00522D4D /* thn-msg-x86_64.s in Sources */ = {isa = PBXBuildFile; fileRef = 66E21C751F46F01B00522D4D /* thn-msg-x86_64.s */; };
+		66E21C7E1F46F01B00522D4D /* THNClassInheritUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E21C771F46F01B00522D4D /* THNClassInheritUtility.m */; };
+		66E21C7F1F46F01B00522D4D /* THNFindAbandonedMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E21C791F46F01B00522D4D /* THNFindAbandonedMethod.m */; };
+		66E21C831F46F41B00522D4D /* THNFindLocalClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E21C821F46F41B00522D4D /* THNFindLocalClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,26 +40,43 @@
 		66E21BB11F45609C00522D4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66E21BB41F45609C00522D4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		66E21BB61F45609C00522D4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		66E21BC21F456E7500522D4D /* thn-msg-arm.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = "thn-msg-arm.s"; sourceTree = "<group>"; };
-		66E21BC31F456E7500522D4D /* thn-msg-arm64.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = "thn-msg-arm64.s"; sourceTree = "<group>"; };
-		66E21BCA1F456F2700522D4D /* THNFindAbandonedMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THNFindAbandonedMethod.h; sourceTree = "<group>"; };
-		66E21BCB1F456F2700522D4D /* THNFindAbandonedMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THNFindAbandonedMethod.m; sourceTree = "<group>"; };
-		66E21BCE1F45755900522D4D /* TestModel1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestModel1.h; sourceTree = "<group>"; };
-		66E21BCF1F45755900522D4D /* TestModel1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestModel1.m; sourceTree = "<group>"; };
-		66E21BD11F45756700522D4D /* TestModel2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestModel2.h; sourceTree = "<group>"; };
-		66E21BD21F45756700522D4D /* TestModel2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestModel2.m; sourceTree = "<group>"; };
-		66E21BD41F45757100522D4D /* TestModel3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestModel3.h; sourceTree = "<group>"; };
-		66E21BD51F45757100522D4D /* TestModel3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestModel3.m; sourceTree = "<group>"; };
-		66E21BD71F45791000522D4D /* thn-msg-simulator-x86_64.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = "thn-msg-simulator-x86_64.s"; sourceTree = "<group>"; };
-		66E21BDB1F45794A00522D4D /* thn-msg-x86_64.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = "thn-msg-x86_64.s"; sourceTree = "<group>"; };
-		66E21BDD1F457D6000522D4D /* THNFindLocalClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THNFindLocalClass.h; sourceTree = "<group>"; };
-		66E21BDE1F457D6000522D4D /* THNFindLocalClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THNFindLocalClass.m; sourceTree = "<group>"; };
-		66E21BF21F46853900522D4D /* THNClassInheritUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THNClassInheritUtility.h; sourceTree = "<group>"; };
-		66E21BF31F46853900522D4D /* THNClassInheritUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THNClassInheritUtility.m; sourceTree = "<group>"; };
+		66E21C411F46E08C00522D4D /* iOSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66E21C441F46E08C00522D4D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66E21C461F46E08C00522D4D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		66E21C471F46E08C00522D4D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		66E21C491F46E08C00522D4D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		66E21C4A1F46E08C00522D4D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		66E21C4D1F46E08C00522D4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66E21C4F1F46E08C00522D4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66E21C521F46E08C00522D4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		66E21C541F46E08C00522D4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66E21C681F46E28600522D4D /* TestModel1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestModel1.h; sourceTree = "<group>"; };
+		66E21C691F46E28600522D4D /* TestModel1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestModel1.m; sourceTree = "<group>"; };
+		66E21C6A1F46E28600522D4D /* TestModel2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestModel2.h; sourceTree = "<group>"; };
+		66E21C6B1F46E28600522D4D /* TestModel2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestModel2.m; sourceTree = "<group>"; };
+		66E21C6C1F46E28600522D4D /* TestModel3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestModel3.h; sourceTree = "<group>"; };
+		66E21C6D1F46E28600522D4D /* TestModel3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestModel3.m; sourceTree = "<group>"; };
+		66E21C721F46F01B00522D4D /* thn-msg-arm.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = "thn-msg-arm.s"; sourceTree = "<group>"; };
+		66E21C731F46F01B00522D4D /* thn-msg-arm64.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = "thn-msg-arm64.s"; sourceTree = "<group>"; };
+		66E21C741F46F01B00522D4D /* thn-msg-simulator-x86_64.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = "thn-msg-simulator-x86_64.s"; sourceTree = "<group>"; };
+		66E21C751F46F01B00522D4D /* thn-msg-x86_64.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = "thn-msg-x86_64.s"; sourceTree = "<group>"; };
+		66E21C761F46F01B00522D4D /* THNClassInheritUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THNClassInheritUtility.h; sourceTree = "<group>"; };
+		66E21C771F46F01B00522D4D /* THNClassInheritUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THNClassInheritUtility.m; sourceTree = "<group>"; };
+		66E21C781F46F01B00522D4D /* THNFindAbandonedMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THNFindAbandonedMethod.h; sourceTree = "<group>"; };
+		66E21C791F46F01B00522D4D /* THNFindAbandonedMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THNFindAbandonedMethod.m; sourceTree = "<group>"; };
+		66E21C811F46F41B00522D4D /* THNFindLocalClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THNFindLocalClass.h; sourceTree = "<group>"; };
+		66E21C821F46F41B00522D4D /* THNFindLocalClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THNFindLocalClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		66E21BA21F45609C00522D4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66E21C3E1F46E08C00522D4D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -67,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				66E21BA71F45609C00522D4D /* THNAbandonedMethodFinder */,
+				66E21C421F46E08C00522D4D /* iOSDemo */,
 				66E21BA61F45609C00522D4D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -75,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				66E21BA51F45609C00522D4D /* THNAbandonedMethodFinder.app */,
+				66E21C411F46E08C00522D4D /* iOSDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -82,9 +107,7 @@
 		66E21BA71F45609C00522D4D /* THNAbandonedMethodFinder */ = {
 			isa = PBXGroup;
 			children = (
-				66E21BCD1F45754B00522D4D /* Test */,
-				66E21BC01F456E7500522D4D /* Src */,
-				66E21BBC1F45612500522D4D /* Utility */,
+				66E21C801F46F41B00522D4D /* Utility */,
 				66E21BA81F45609C00522D4D /* AppDelegate.h */,
 				66E21BA91F45609C00522D4D /* AppDelegate.m */,
 				66E21BAE1F45609C00522D4D /* ViewController.h */,
@@ -105,41 +128,67 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		66E21BBC1F45612500522D4D /* Utility */ = {
+		66E21C421F46E08C00522D4D /* iOSDemo */ = {
 			isa = PBXGroup;
 			children = (
-				66E21BDD1F457D6000522D4D /* THNFindLocalClass.h */,
-				66E21BDE1F457D6000522D4D /* THNFindLocalClass.m */,
+				66E21C711F46F01B00522D4D /* Src */,
+				66E21C671F46E28600522D4D /* Test */,
+				66E21C461F46E08C00522D4D /* AppDelegate.h */,
+				66E21C471F46E08C00522D4D /* AppDelegate.m */,
+				66E21C491F46E08C00522D4D /* ViewController.h */,
+				66E21C4A1F46E08C00522D4D /* ViewController.m */,
+				66E21C4C1F46E08C00522D4D /* Main.storyboard */,
+				66E21C4F1F46E08C00522D4D /* Assets.xcassets */,
+				66E21C511F46E08C00522D4D /* LaunchScreen.storyboard */,
+				66E21C541F46E08C00522D4D /* Info.plist */,
+				66E21C431F46E08C00522D4D /* Supporting Files */,
 			);
-			path = Utility;
+			path = iOSDemo;
 			sourceTree = "<group>";
 		};
-		66E21BC01F456E7500522D4D /* Src */ = {
+		66E21C431F46E08C00522D4D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				66E21BF21F46853900522D4D /* THNClassInheritUtility.h */,
-				66E21BF31F46853900522D4D /* THNClassInheritUtility.m */,
-				66E21BD71F45791000522D4D /* thn-msg-simulator-x86_64.s */,
-				66E21BCA1F456F2700522D4D /* THNFindAbandonedMethod.h */,
-				66E21BCB1F456F2700522D4D /* THNFindAbandonedMethod.m */,
-				66E21BC21F456E7500522D4D /* thn-msg-arm.s */,
-				66E21BC31F456E7500522D4D /* thn-msg-arm64.s */,
-				66E21BDB1F45794A00522D4D /* thn-msg-x86_64.s */,
+				66E21C441F46E08C00522D4D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		66E21C671F46E28600522D4D /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				66E21C681F46E28600522D4D /* TestModel1.h */,
+				66E21C691F46E28600522D4D /* TestModel1.m */,
+				66E21C6A1F46E28600522D4D /* TestModel2.h */,
+				66E21C6B1F46E28600522D4D /* TestModel2.m */,
+				66E21C6C1F46E28600522D4D /* TestModel3.h */,
+				66E21C6D1F46E28600522D4D /* TestModel3.m */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		66E21C711F46F01B00522D4D /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				66E21C721F46F01B00522D4D /* thn-msg-arm.s */,
+				66E21C731F46F01B00522D4D /* thn-msg-arm64.s */,
+				66E21C741F46F01B00522D4D /* thn-msg-simulator-x86_64.s */,
+				66E21C751F46F01B00522D4D /* thn-msg-x86_64.s */,
+				66E21C761F46F01B00522D4D /* THNClassInheritUtility.h */,
+				66E21C771F46F01B00522D4D /* THNClassInheritUtility.m */,
+				66E21C781F46F01B00522D4D /* THNFindAbandonedMethod.h */,
+				66E21C791F46F01B00522D4D /* THNFindAbandonedMethod.m */,
 			);
 			path = Src;
 			sourceTree = "<group>";
 		};
-		66E21BCD1F45754B00522D4D /* Test */ = {
+		66E21C801F46F41B00522D4D /* Utility */ = {
 			isa = PBXGroup;
 			children = (
-				66E21BCE1F45755900522D4D /* TestModel1.h */,
-				66E21BCF1F45755900522D4D /* TestModel1.m */,
-				66E21BD11F45756700522D4D /* TestModel2.h */,
-				66E21BD21F45756700522D4D /* TestModel2.m */,
-				66E21BD41F45757100522D4D /* TestModel3.h */,
-				66E21BD51F45757100522D4D /* TestModel3.m */,
+				66E21C811F46F41B00522D4D /* THNFindLocalClass.h */,
+				66E21C821F46F41B00522D4D /* THNFindLocalClass.m */,
 			);
-			path = Test;
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +211,23 @@
 			productReference = 66E21BA51F45609C00522D4D /* THNAbandonedMethodFinder.app */;
 			productType = "com.apple.product-type.application";
 		};
+		66E21C401F46E08C00522D4D /* iOSDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66E21C571F46E08C00522D4D /* Build configuration list for PBXNativeTarget "iOSDemo" */;
+			buildPhases = (
+				66E21C3D1F46E08C00522D4D /* Sources */,
+				66E21C3E1F46E08C00522D4D /* Frameworks */,
+				66E21C3F1F46E08C00522D4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSDemo;
+			productName = iOSDemo;
+			productReference = 66E21C411F46E08C00522D4D /* iOSDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -172,6 +238,11 @@
 				ORGANIZATIONNAME = h;
 				TargetAttributes = {
 					66E21BA41F45609C00522D4D = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6L487DE3GB;
+						ProvisioningStyle = Automatic;
+					};
+					66E21C401F46E08C00522D4D = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 6L487DE3GB;
 						ProvisioningStyle = Automatic;
@@ -192,6 +263,7 @@
 			projectRoot = "";
 			targets = (
 				66E21BA41F45609C00522D4D /* THNAbandonedMethodFinder */,
+				66E21C401F46E08C00522D4D /* iOSDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -206,6 +278,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		66E21C3F1F46E08C00522D4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66E21C531F46E08C00522D4D /* LaunchScreen.storyboard in Resources */,
+				66E21C501F46E08C00522D4D /* Assets.xcassets in Resources */,
+				66E21C4E1F46E08C00522D4D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -213,19 +295,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66E21BD61F45757100522D4D /* TestModel3.m in Sources */,
 				66E21BB01F45609C00522D4D /* ViewController.m in Sources */,
-				66E21BF61F46853900522D4D /* THNClassInheritUtility.m in Sources */,
 				66E21BAD1F45609C00522D4D /* main.m in Sources */,
-				66E21BCC1F456F2700522D4D /* THNFindAbandonedMethod.m in Sources */,
-				66E21BC61F456E7500522D4D /* thn-msg-arm64.s in Sources */,
-				66E21BC51F456E7500522D4D /* thn-msg-arm.s in Sources */,
-				66E21BDC1F45794A00522D4D /* thn-msg-x86_64.s in Sources */,
+				66E21C831F46F41B00522D4D /* THNFindLocalClass.m in Sources */,
 				66E21BAA1F45609C00522D4D /* AppDelegate.m in Sources */,
-				66E21BD31F45756700522D4D /* TestModel2.m in Sources */,
-				66E21BD81F45791000522D4D /* thn-msg-simulator-x86_64.s in Sources */,
-				66E21BDF1F457D6000522D4D /* THNFindLocalClass.m in Sources */,
-				66E21BD01F45755900522D4D /* TestModel1.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66E21C3D1F46E08C00522D4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66E21C4B1F46E08C00522D4D /* ViewController.m in Sources */,
+				66E21C701F46E28600522D4D /* TestModel3.m in Sources */,
+				66E21C481F46E08C00522D4D /* AppDelegate.m in Sources */,
+				66E21C7E1F46F01B00522D4D /* THNClassInheritUtility.m in Sources */,
+				66E21C7A1F46F01B00522D4D /* thn-msg-arm.s in Sources */,
+				66E21C7C1F46F01B00522D4D /* thn-msg-simulator-x86_64.s in Sources */,
+				66E21C7D1F46F01B00522D4D /* thn-msg-x86_64.s in Sources */,
+				66E21C6E1F46E28600522D4D /* TestModel1.m in Sources */,
+				66E21C7B1F46F01B00522D4D /* thn-msg-arm64.s in Sources */,
+				66E21C6F1F46E28600522D4D /* TestModel2.m in Sources */,
+				66E21C451F46E08C00522D4D /* main.m in Sources */,
+				66E21C7F1F46F01B00522D4D /* THNFindAbandonedMethod.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,6 +330,22 @@
 				66E21BB41F45609C00522D4D /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		66E21C4C1F46E08C00522D4D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66E21C4D1F46E08C00522D4D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		66E21C511F46E08C00522D4D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66E21C521F46E08C00522D4D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -358,6 +466,37 @@
 			};
 			name = Release;
 		};
+		66E21C551F46E08C00522D4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 6L487DE3GB;
+				INFOPLIST_FILE = iOSDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = h.iOSDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		66E21C561F46E08C00522D4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 6L487DE3GB;
+				INFOPLIST_FILE = iOSDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = h.iOSDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -375,6 +514,15 @@
 			buildConfigurations = (
 				66E21BBA1F45609C00522D4D /* Debug */,
 				66E21BBB1F45609C00522D4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66E21C571F46E08C00522D4D /* Build configuration list for PBXNativeTarget "iOSDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66E21C551F46E08C00522D4D /* Debug */,
+				66E21C561F46E08C00522D4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

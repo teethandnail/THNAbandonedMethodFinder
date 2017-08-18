@@ -27,7 +27,7 @@
         [desc appendFormat:@"--"];
     }
     
-    [desc appendString:[NSString stringWithFormat:@"%@ [usedCount:%@]", self.className, self.usedMethodCount]];
+    [desc appendString:[NSString stringWithFormat:@"%@ [用到的方法个数:%@]", self.className, self.usedMethodCount]];
     
     for (THNTreeNode *item in self.childClsNodeArray) {
         [desc appendString:[item getInheritDescInDeep:deep+1]];

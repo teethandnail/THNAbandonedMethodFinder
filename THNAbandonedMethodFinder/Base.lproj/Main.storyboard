@@ -692,7 +692,7 @@
                                 <buttonCell key="cell" type="squareTextured" bezelStyle="texturedSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="heg-2U-cz8">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <string key="title">查询本地所有class
-(结果请看日志)</string>
+(结果请看console)</string>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                                 <connections>

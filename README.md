@@ -8,10 +8,13 @@
 * OC运行时里有CacheList方法列表，用过的方法都会存到缓存列表里，且不会删除之前存入的方法。
 * 在App运行足够充分后，通过类的方法列表一个个查询方法是否已缓存，未缓存则把该方法标记成可能废弃。最终得出类与方法的废弃结果
 
-## 如何使用
-* 用工程提供的THNFindLocalClass方法，查找出工程目录(或某模块)下的所有类
-* 在待分析工程中导入Src文件夹下的oc和汇编源码，把上一步找出的类数组当做入参传给findAbandonedMethodWithClassArray:方法，得出废弃方法数据
+## 使用
+* Utility文件夹供mac demo使用，用于分析工程源码里有多少个class
+* Src文件夹用于iOS工程分析废弃method
+* 用工程提供的Utility/THNFindLocalClass方法，查找出工程目录(或某模块)下的所有类
+* 在待分析iOS工程中导入Src文件夹下的oc和汇编源码，将上一步找出的类数组当做入参传给findAbandonedMethodWithClassArray:方法，得出废弃方法数据
 * 把上一步的废弃方法数据传入getInheritWithClassInfoDic，得到类的继承关系及废弃数据
 * 废弃方法数据中的方法可参考删除（方法未被调用）
 * 类的继承关系及废弃数据中使用方法数为0的类可考虑整个类删除(被#import,但并未被使用)
+
 

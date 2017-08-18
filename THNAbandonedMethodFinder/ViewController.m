@@ -21,13 +21,9 @@
 
 - (IBAction)clickAction:(id)sender {
     
-    TestModel1 *model1 = [[TestModel1 alloc] init];
-    [model1 p_func1];
-    [TestModel1 b_func1];
-
-    // 让TestModel1执行几个方法，看是否能找出该类的方法废弃情况
-    NSString *path = @"/Users/HongLin/Documents/SVN_IOS/Git_Pod/Personal_Git/THNAbandonedMethodFinder/THNAbandonedMethodFinder";
+    NSString *path = @"/Users/HongLin/Documents/SVN_IOS/Git_Pod/Personal_Git/THNAbandonedMethodFinder/iOSDemo";
     if (![[NSFileManager defaultManager] fileExistsAtPath:path]) {
+        NSLog(@"目录不存在");
         return;
     }
     
@@ -38,14 +34,8 @@
     
     // 分析工程目录下有多少个类
     NSArray *classArray = [THNFindLocalClass findLocalClassWithPath:path subPathArray:subPathArray];
-    
-    // 此方法单独集成进iOS工程里，入参传入上面方法找出的类数组，跑完app的所有功能后，触发此方法，分析出method废弃数据
-    NSDictionary *abandonedClassDic = [THNFindAbandonedMethod findAbandonedMethodWithClassArray:classArray];
-    // 
-    NSString *inheritDesc = [THNClassInheritUtility getInheritWithClassInfoDic:abandonedClassDic];
-    
-    NSLog(@"\n\n============= 废弃函数统计情况 ===============\n%@", abandonedClassDic);
-    NSLog(@"\n\n=========== 类使用情况及继承关系 ==============\n%@", inheritDesc);
+    NSLog(@"\n\n============= 目录下的类有 ===============\n%@", classArray);
+    // 再把classArray当做入参数，传给findAbandonedMethodWithClassArray:方法，供分析
 }
 
 @end
