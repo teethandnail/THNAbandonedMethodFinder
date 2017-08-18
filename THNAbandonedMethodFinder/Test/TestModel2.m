@@ -10,12 +10,12 @@
 
 @implementation TestModel2
 
-- (void)p_func1 {
-    NSLog(@"%@ p_func1", NSStringFromClass([self class]));
+- (void)p_funcT2 {
+    NSLog(@"%@ p_funcT2 running", NSStringFromClass([self class]));
 }
 
-+ (void)b_func1 {
-    NSLog(@"%@ p_func2", NSStringFromClass([self class]));
++ (void)b_funcT2 {
+    NSLog(@"%@ b_funcT2 running", NSStringFromClass([self class]));
 }
 
 

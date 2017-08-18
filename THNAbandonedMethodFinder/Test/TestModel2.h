@@ -7,11 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "TestModel1.h"
 
-@interface TestModel2 : NSObject
+@interface TestModel2 : TestModel1
 
-- (void)p_func1;
+- (void)p_funcT2;
 
-+ (void)b_func1;
++ (void)b_funcT2;
 
 @end

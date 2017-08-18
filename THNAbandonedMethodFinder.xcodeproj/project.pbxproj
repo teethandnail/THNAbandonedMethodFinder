@@ -21,6 +21,7 @@
 		66E21BD81F45791000522D4D /* thn-msg-simulator-x86_64.s in Sources */ = {isa = PBXBuildFile; fileRef = 66E21BD71F45791000522D4D /* thn-msg-simulator-x86_64.s */; };
 		66E21BDC1F45794A00522D4D /* thn-msg-x86_64.s in Sources */ = {isa = PBXBuildFile; fileRef = 66E21BDB1F45794A00522D4D /* thn-msg-x86_64.s */; };
 		66E21BDF1F457D6000522D4D /* THNFindLocalClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E21BDE1F457D6000522D4D /* THNFindLocalClass.m */; };
+		66E21BF61F46853900522D4D /* THNClassInheritUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E21BF31F46853900522D4D /* THNClassInheritUtility.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,8 @@
 		66E21BDB1F45794A00522D4D /* thn-msg-x86_64.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = "thn-msg-x86_64.s"; sourceTree = "<group>"; };
 		66E21BDD1F457D6000522D4D /* THNFindLocalClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THNFindLocalClass.h; sourceTree = "<group>"; };
 		66E21BDE1F457D6000522D4D /* THNFindLocalClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THNFindLocalClass.m; sourceTree = "<group>"; };
+		66E21BF21F46853900522D4D /* THNClassInheritUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THNClassInheritUtility.h; sourceTree = "<group>"; };
+		66E21BF31F46853900522D4D /* THNClassInheritUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THNClassInheritUtility.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,8 @@
 		66E21BC01F456E7500522D4D /* Src */ = {
 			isa = PBXGroup;
 			children = (
+				66E21BF21F46853900522D4D /* THNClassInheritUtility.h */,
+				66E21BF31F46853900522D4D /* THNClassInheritUtility.m */,
 				66E21BD71F45791000522D4D /* thn-msg-simulator-x86_64.s */,
 				66E21BCA1F456F2700522D4D /* THNFindAbandonedMethod.h */,
 				66E21BCB1F456F2700522D4D /* THNFindAbandonedMethod.m */,
@@ -210,6 +215,7 @@
 			files = (
 				66E21BD61F45757100522D4D /* TestModel3.m in Sources */,
 				66E21BB01F45609C00522D4D /* ViewController.m in Sources */,
+				66E21BF61F46853900522D4D /* THNClassInheritUtility.m in Sources */,
 				66E21BAD1F45609C00522D4D /* main.m in Sources */,
 				66E21BCC1F456F2700522D4D /* THNFindAbandonedMethod.m in Sources */,
 				66E21BC61F456E7500522D4D /* thn-msg-arm64.s in Sources */,

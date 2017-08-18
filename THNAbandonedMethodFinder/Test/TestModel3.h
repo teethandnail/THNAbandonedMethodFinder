@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "TestModel2.h"
 
-@interface TestModel3 : NSObject
+@interface TestModel3 : TestModel2
 
 @end

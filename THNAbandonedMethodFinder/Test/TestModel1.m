@@ -11,19 +11,19 @@
 @implementation TestModel1
 
 - (void)p_func1 {
-    NSLog(@"%@ p_func1", NSStringFromClass([self class]));
+    NSLog(@"%@ p_func1 running", NSStringFromClass([self class]));
 }
 
 - (void)p_func2 {
-    NSLog(@"%@ p_func2", NSStringFromClass([self class]));
+    NSLog(@"%@ p_func2 running", NSStringFromClass([self class]));
 }
 
 + (void)b_func1 {
-    NSLog(@"%@ p_func2", NSStringFromClass([self class]));
+    NSLog(@"%@ b_func1 running", NSStringFromClass([self class]));
 }
 
 + (void)b_func2 {
-    NSLog(@"%@ p_func2", NSStringFromClass([self class]));
+    NSLog(@"%@ b_func2 running", NSStringFromClass([self class]));
 }
 
 @end
