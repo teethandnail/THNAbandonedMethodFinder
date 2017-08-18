@@ -22,7 +22,7 @@
 - (NSString *)getInheritDescInDeep:(NSUInteger)deep {
     
     NSMutableString *desc = [NSMutableString string];
-    [desc appendString:@"\n"];
+    [desc appendString:@"\n>"];
     for (NSUInteger index = 0; index < deep; index++) {
         [desc appendFormat:@"--"];
     }
